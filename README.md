@@ -8,7 +8,7 @@ React framework with Next.js 15, TypeScript, and Tailwind CSS.
 - **React 19** with Server Components
 - **TypeScript** for type safety
 - **Tailwind CSS** for styling
-- **ESLint** + **Prettier** for linting
+- **ESLint** for linting
 
 ## Getting Started
 
@@ -25,9 +25,6 @@ npm run dev
 ## Development
 
 ```bash
-# Run tests
-npm test
-
 # Run linting
 npm run lint
 
@@ -41,12 +38,11 @@ npm start
 ## Project Structure
 
 ```
-├── app/                 # App Router pages and layouts
-│   ├── layout.tsx      # Root layout
-│   ├── page.tsx        # Home page
-│   └── api/            # API routes
-├── components/         # React components
-├── lib/                # Utility functions
+├── src/
+│   └── app/            # App Router pages and layouts
+│       ├── layout.tsx  # Root layout
+│       ├── page.tsx    # Home page
+│       └── api/        # API routes
 ├── public/             # Static assets
-└── styles/             # Global styles
+└── next.config.ts      # Next.js configuration
 ```
