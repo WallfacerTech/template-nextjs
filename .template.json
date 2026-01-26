@@ -1,0 +1,9 @@
+{
+  "name": "Next.js",
+  "description": "React framework with Next.js 15, TypeScript, and Tailwind CSS",
+  "tags": ["typescript", "react", "full-stack", "ssr", "tailwind"],
+  "language": "typescript",
+  "testCommand": "npm test",
+  "updateCommand": "npm update",
+  "devCommand": "npm run dev"
+}
